@@ -569,13 +569,175 @@ window.ROADMAP=[
   {
     "id": "phase-08",
     "phase": "Phase 08",
+    "title": "Docker & Containers",
+    "icon": "\ud83d\udc33",
+    "weight": 8,
+    "topics": [
+      {
+        "title": "Why Docker?",
+        "priority": "must",
+        "weight": 1,
+        "description": "Understand what Docker solves and why containers are useful.",
+        "url": "https://docs.docker.com/get-started/docker-overview/",
+        "id": "topic-057",
+        "number": 57
+      },
+      {
+        "title": "Containers vs Virtual Machines",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Understand the difference between containers and full virtual machines.",
+        "url": "https://docs.docker.com/get-started/docker-overview/",
+        "id": "topic-058",
+        "number": 58
+      },
+      {
+        "title": "Images vs Containers",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Learn the core Docker building blocks.",
+        "url": "https://docs.docker.com/get-started/docker-concepts/the-basics/what-is-an-image/",
+        "id": "topic-059",
+        "number": 59
+      },
+      {
+        "title": "Run your first container",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Pull and run an existing image.",
+        "url": "https://docs.docker.com/get-started/introduction/get-docker-desktop/",
+        "id": "topic-060",
+        "number": 60
+      },
+      {
+        "title": "Essential Docker commands",
+        "priority": "must",
+        "weight": 1,
+        "description": "Learn docker pull, run, ps, logs, exec, stop and rm.",
+        "url": "https://docs.docker.com/reference/cli/docker/",
+        "id": "topic-061",
+        "number": 61
+      },
+      {
+        "title": "Ports and port mapping",
+        "priority": "must",
+        "weight": 0.5,
+        "description": "Expose a container application to your machine.",
+        "url": "https://docs.docker.com/get-started/docker-concepts/running-containers/publishing-ports/",
+        "id": "topic-062",
+        "number": 62
+      },
+      {
+        "title": "Dockerfile",
+        "priority": "must",
+        "weight": 1,
+        "description": "Define how your own application image is built.",
+        "url": "https://docs.docker.com/reference/dockerfile/",
+        "id": "topic-063",
+        "number": 63
+      },
+      {
+        "title": "Dockerize an ASP.NET Core API",
+        "priority": "must",
+        "weight": 1.25,
+        "description": "Build and run your .NET API inside a container.",
+        "url": "https://learn.microsoft.com/en-us/dotnet/core/docker/build-container?tabs=windows",
+        "id": "topic-064",
+        "number": 64
+      },
+      {
+        "title": "Environment variables in containers",
+        "priority": "must",
+        "weight": 0.5,
+        "description": "Pass configuration without hardcoding secrets.",
+        "url": "https://docs.docker.com/compose/how-tos/environment-variables/",
+        "id": "topic-065",
+        "number": 65
+      },
+      {
+        "title": "Volumes",
+        "priority": "must",
+        "weight": 0.5,
+        "description": "Persist data outside a container lifecycle.",
+        "url": "https://docs.docker.com/engine/storage/volumes/",
+        "id": "topic-066",
+        "number": 66
+      },
+      {
+        "title": "Docker Compose basics",
+        "priority": "should",
+        "weight": 0.75,
+        "description": "Run multiple services together from one configuration.",
+        "url": "https://docs.docker.com/compose/",
+        "id": "topic-067",
+        "number": 67
+      },
+      {
+        "title": "API + SQL Server with Compose",
+        "priority": "should",
+        "weight": 0.5,
+        "description": "Run a realistic multi-container .NET setup.",
+        "url": "https://docs.docker.com/compose/",
+        "id": "topic-068",
+        "number": 68
+      },
+      {
+        "title": "API + RabbitMQ + Redis with Compose",
+        "priority": "should",
+        "weight": 0.5,
+        "description": "Prepare for the messaging and caching phases.",
+        "url": "https://docs.docker.com/compose/",
+        "id": "topic-069",
+        "number": 69
+      },
+      {
+        "title": "Container networking",
+        "priority": "should",
+        "weight": 0.25,
+        "description": "Understand how containers communicate by service name.",
+        "url": "https://docs.docker.com/network/",
+        "id": "topic-070",
+        "number": 70
+      },
+      {
+        "title": "Multi-stage builds",
+        "priority": "good",
+        "weight": 0.25,
+        "description": "Create smaller production images.",
+        "url": "https://docs.docker.com/build/building/multi-stage/",
+        "id": "topic-071",
+        "number": 71
+      },
+      {
+        "title": ".dockerignore and image optimization",
+        "priority": "good",
+        "weight": 0.25,
+        "description": "Keep images cleaner and smaller.",
+        "url": "https://docs.docker.com/build/concepts/context/#dockerignore-files",
+        "id": "topic-072",
+        "number": 72
+      },
+      {
+        "title": "Kubernetes basics",
+        "priority": "advanced",
+        "weight": 0,
+        "description": "Only learn deeply if your work requires container orchestration.",
+        "url": "https://kubernetes.io/docs/concepts/overview/",
+        "id": "topic-073",
+        "number": 73
+      }
+    ]
+  },
+  {
+    "id": "phase-09",
+    "phase": "Phase 09",
     "title": "Messaging Fundamentals",
     "icon": "\ud83d\udce8",
     "weight": 7,
     "topics": [
       {
-        "id": "topic-057",
-        "number": 57,
+        "id": "topic-074",
+        "number": 74,
         "title": "Why asynchronous messaging",
         "priority": "must",
         "weight": 1,
@@ -583,8 +745,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven"
       },
       {
-        "id": "topic-058",
-        "number": 58,
+        "id": "topic-075",
+        "number": 75,
         "title": "Producer, consumer and broker",
         "priority": "must",
         "weight": 1,
@@ -592,8 +754,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-059",
-        "number": 59,
+        "id": "topic-076",
+        "number": 76,
         "title": "Message and queue",
         "priority": "must",
         "weight": 1,
@@ -601,8 +763,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials/tutorial-one-dotnet"
       },
       {
-        "id": "topic-060",
-        "number": 60,
+        "id": "topic-077",
+        "number": 77,
         "title": "Acknowledgement",
         "priority": "must",
         "weight": 1,
@@ -610,8 +772,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/docs/confirms"
       },
       {
-        "id": "topic-061",
-        "number": 61,
+        "id": "topic-078",
+        "number": 78,
         "title": "Queue vs publish/subscribe",
         "priority": "must",
         "weight": 1,
@@ -619,8 +781,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-062",
-        "number": 62,
+        "id": "topic-079",
+        "number": 79,
         "title": "Serialization and message contracts",
         "priority": "should",
         "weight": 0.75,
@@ -628,8 +790,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/best-practices/api-design"
       },
       {
-        "id": "topic-063",
-        "number": 63,
+        "id": "topic-080",
+        "number": 80,
         "title": "Message ordering and idempotent consumers",
         "priority": "should",
         "weight": 0.75,
@@ -637,8 +799,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer"
       },
       {
-        "id": "topic-064",
-        "number": 64,
+        "id": "topic-081",
+        "number": 81,
         "title": "Exactly-once delivery myths",
         "priority": "good",
         "weight": 0.5,
@@ -648,15 +810,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-09",
-    "phase": "Phase 09",
+    "id": "phase-10",
+    "phase": "Phase 10",
     "title": "RabbitMQ",
     "icon": "\ud83d\udc07",
     "weight": 12,
     "topics": [
       {
-        "id": "topic-065",
-        "number": 65,
+        "id": "topic-082",
+        "number": 82,
         "title": "RabbitMQ architecture",
         "priority": "must",
         "weight": 1,
@@ -664,8 +826,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-066",
-        "number": 66,
+        "id": "topic-083",
+        "number": 83,
         "title": "Connection and channel",
         "priority": "must",
         "weight": 1,
@@ -673,8 +835,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/client-libraries/dotnet-api-guide"
       },
       {
-        "id": "topic-067",
-        "number": 67,
+        "id": "topic-084",
+        "number": 84,
         "title": "Publish a message",
         "priority": "must",
         "weight": 1,
@@ -682,8 +844,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials/tutorial-one-dotnet"
       },
       {
-        "id": "topic-068",
-        "number": 68,
+        "id": "topic-085",
+        "number": 85,
         "title": "Consume a message",
         "priority": "must",
         "weight": 1,
@@ -691,8 +853,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials/tutorial-one-dotnet"
       },
       {
-        "id": "topic-069",
-        "number": 69,
+        "id": "topic-086",
+        "number": 86,
         "title": "Manual acknowledgement",
         "priority": "must",
         "weight": 1,
@@ -700,8 +862,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/docs/confirms"
       },
       {
-        "id": "topic-070",
-        "number": 70,
+        "id": "topic-087",
+        "number": 87,
         "title": "Exchanges",
         "priority": "should",
         "weight": 1,
@@ -709,8 +871,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-071",
-        "number": 71,
+        "id": "topic-088",
+        "number": 88,
         "title": "Direct, fanout and topic exchanges",
         "priority": "should",
         "weight": 1.5,
@@ -718,8 +880,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-072",
-        "number": 72,
+        "id": "topic-089",
+        "number": 89,
         "title": "Routing keys and bindings",
         "priority": "should",
         "weight": 1,
@@ -727,8 +889,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials"
       },
       {
-        "id": "topic-073",
-        "number": 73,
+        "id": "topic-090",
+        "number": 90,
         "title": "Publish / subscribe",
         "priority": "should",
         "weight": 0.5,
@@ -736,8 +898,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/tutorials/tutorial-three-dotnet"
       },
       {
-        "id": "topic-074",
-        "number": 74,
+        "id": "topic-091",
+        "number": 91,
         "title": "Retry and dead-letter queues",
         "priority": "should",
         "weight": 1,
@@ -745,8 +907,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/docs/dlx"
       },
       {
-        "id": "topic-075",
-        "number": 75,
+        "id": "topic-092",
+        "number": 92,
         "title": "Prefetch, TTL and priority",
         "priority": "good",
         "weight": 0.75,
@@ -754,8 +916,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/docs"
       },
       {
-        "id": "topic-076",
-        "number": 76,
+        "id": "topic-093",
+        "number": 93,
         "title": "Ordering and delayed messages",
         "priority": "good",
         "weight": 0.25,
@@ -763,8 +925,8 @@ window.ROADMAP=[
         "url": "https://www.rabbitmq.com/docs"
       },
       {
-        "id": "topic-077",
-        "number": 77,
+        "id": "topic-094",
+        "number": 94,
         "title": "Clustering, federation and tuning",
         "priority": "advanced",
         "weight": 0,
@@ -774,15 +936,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-10",
-    "phase": "Phase 10",
+    "id": "phase-11",
+    "phase": "Phase 11",
     "title": "Azure Service Bus",
     "icon": "\u2601\ufe0f",
     "weight": 6,
     "topics": [
       {
-        "id": "topic-078",
-        "number": 78,
+        "id": "topic-095",
+        "number": 95,
         "title": "Why Azure Service Bus",
         "priority": "must",
         "weight": 1,
@@ -790,8 +952,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview"
       },
       {
-        "id": "topic-079",
-        "number": 79,
+        "id": "topic-096",
+        "number": 96,
         "title": "Queues, sender and receiver",
         "priority": "must",
         "weight": 1.5,
@@ -799,8 +961,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-get-started-with-queues"
       },
       {
-        "id": "topic-080",
-        "number": 80,
+        "id": "topic-097",
+        "number": 97,
         "title": "Topics and subscriptions",
         "priority": "should",
         "weight": 1.25,
@@ -808,8 +970,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dotnet-how-to-use-topics-subscriptions"
       },
       {
-        "id": "topic-081",
-        "number": 81,
+        "id": "topic-098",
+        "number": 98,
         "title": "Message lock and completion",
         "priority": "should",
         "weight": 1,
@@ -817,8 +979,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/message-transfers-locks-settlement"
       },
       {
-        "id": "topic-082",
-        "number": 82,
+        "id": "topic-099",
+        "number": 99,
         "title": "Retry and dead-letter queue",
         "priority": "should",
         "weight": 0.75,
@@ -826,8 +988,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/service-bus-messaging/service-bus-dead-letter-queues"
       },
       {
-        "id": "topic-083",
-        "number": 83,
+        "id": "topic-100",
+        "number": 100,
         "title": "Sessions and advanced features",
         "priority": "good",
         "weight": 0.5,
@@ -837,15 +999,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-11",
-    "phase": "Phase 11",
+    "id": "phase-12",
+    "phase": "Phase 12",
     "title": "Event Streaming",
     "icon": "\ud83d\udce1",
     "weight": 5,
     "topics": [
       {
-        "id": "topic-084",
-        "number": 84,
+        "id": "topic-101",
+        "number": 101,
         "title": "Event streaming vs messaging",
         "priority": "must",
         "weight": 1,
@@ -853,8 +1015,8 @@ window.ROADMAP=[
         "url": "https://kafka.apache.org/intro"
       },
       {
-        "id": "topic-085",
-        "number": 85,
+        "id": "topic-102",
+        "number": 102,
         "title": "Kafka topics, partitions and offsets",
         "priority": "should",
         "weight": 1.5,
@@ -862,8 +1024,8 @@ window.ROADMAP=[
         "url": "https://kafka.apache.org/documentation/"
       },
       {
-        "id": "topic-086",
-        "number": 86,
+        "id": "topic-103",
+        "number": 103,
         "title": "Consumer groups and replay",
         "priority": "should",
         "weight": 1,
@@ -871,8 +1033,8 @@ window.ROADMAP=[
         "url": "https://kafka.apache.org/documentation/"
       },
       {
-        "id": "topic-087",
-        "number": 87,
+        "id": "topic-104",
+        "number": 104,
         "title": "Azure Event Hubs",
         "priority": "good",
         "weight": 1,
@@ -880,8 +1042,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/event-hubs/event-hubs-about"
       },
       {
-        "id": "topic-088",
-        "number": 88,
+        "id": "topic-105",
+        "number": 105,
         "title": "Kafka internals and tuning",
         "priority": "advanced",
         "weight": 0.5,
@@ -891,15 +1053,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-12",
-    "phase": "Phase 12",
+    "id": "phase-13",
+    "phase": "Phase 13",
     "title": "Background Processing",
     "icon": "\u2699\ufe0f",
     "weight": 5,
     "topics": [
       {
-        "id": "topic-089",
-        "number": 89,
+        "id": "topic-106",
+        "number": 106,
         "title": "BackgroundService",
         "priority": "must",
         "weight": 1.5,
@@ -907,8 +1069,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/extensions/workers"
       },
       {
-        "id": "topic-090",
-        "number": 90,
+        "id": "topic-107",
+        "number": 107,
         "title": "Worker Service",
         "priority": "must",
         "weight": 1,
@@ -916,8 +1078,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/extensions/workers"
       },
       {
-        "id": "topic-091",
-        "number": 91,
+        "id": "topic-108",
+        "number": 108,
         "title": "Cancellation and graceful shutdown",
         "priority": "must",
         "weight": 0.75,
@@ -925,8 +1087,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/extensions/workers"
       },
       {
-        "id": "topic-092",
-        "number": 92,
+        "id": "topic-109",
+        "number": 109,
         "title": "Scheduled jobs",
         "priority": "should",
         "weight": 0.75,
@@ -934,8 +1096,8 @@ window.ROADMAP=[
         "url": "https://www.quartz-scheduler.net/documentation/"
       },
       {
-        "id": "topic-093",
-        "number": 93,
+        "id": "topic-110",
+        "number": 110,
         "title": "Hangfire",
         "priority": "should",
         "weight": 0.75,
@@ -943,8 +1105,8 @@ window.ROADMAP=[
         "url": "https://docs.hangfire.io/"
       },
       {
-        "id": "topic-094",
-        "number": 94,
+        "id": "topic-111",
+        "number": 111,
         "title": "Quartz.NET",
         "priority": "good",
         "weight": 0.25,
@@ -954,15 +1116,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-13",
-    "phase": "Phase 13",
+    "id": "phase-14",
+    "phase": "Phase 14",
     "title": "Reliability & Resilience",
     "icon": "\ud83d\udee1\ufe0f",
     "weight": 6,
     "topics": [
       {
-        "id": "topic-095",
-        "number": 95,
+        "id": "topic-112",
+        "number": 112,
         "title": "Timeout",
         "priority": "must",
         "weight": 1,
@@ -970,8 +1132,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience"
       },
       {
-        "id": "topic-096",
-        "number": 96,
+        "id": "topic-113",
+        "number": 113,
         "title": "Retry",
         "priority": "must",
         "weight": 1.25,
@@ -979,8 +1141,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience"
       },
       {
-        "id": "topic-097",
-        "number": 97,
+        "id": "topic-114",
+        "number": 114,
         "title": "Idempotency",
         "priority": "must",
         "weight": 1,
@@ -988,8 +1150,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/idempotent-consumer"
       },
       {
-        "id": "topic-098",
-        "number": 98,
+        "id": "topic-115",
+        "number": 115,
         "title": "Circuit breaker",
         "priority": "should",
         "weight": 1,
@@ -997,8 +1159,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/resilience/http-resilience"
       },
       {
-        "id": "topic-099",
-        "number": 99,
+        "id": "topic-116",
+        "number": 116,
         "title": "Fallback",
         "priority": "should",
         "weight": 0.75,
@@ -1006,8 +1168,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/circuit-breaker"
       },
       {
-        "id": "topic-100",
-        "number": 100,
+        "id": "topic-117",
+        "number": 117,
         "title": "Bulkhead isolation",
         "priority": "good",
         "weight": 0.5,
@@ -1015,8 +1177,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/bulkhead"
       },
       {
-        "id": "topic-101",
-        "number": 101,
+        "id": "topic-118",
+        "number": 118,
         "title": "Advanced resilience strategy design",
         "priority": "advanced",
         "weight": 0.5,
@@ -1026,15 +1188,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-14",
-    "phase": "Phase 14",
+    "id": "phase-15",
+    "phase": "Phase 15",
     "title": "Caching & Redis",
     "icon": "\ud83d\udcbe",
     "weight": 5,
     "topics": [
       {
-        "id": "topic-102",
-        "number": 102,
+        "id": "topic-119",
+        "number": 119,
         "title": "Why caching and cache-aside",
         "priority": "must",
         "weight": 1.25,
@@ -1042,8 +1204,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cache-aside"
       },
       {
-        "id": "topic-103",
-        "number": 103,
+        "id": "topic-120",
+        "number": 120,
         "title": "In-memory cache",
         "priority": "must",
         "weight": 1,
@@ -1051,8 +1213,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/performance/caching/memory?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-104",
-        "number": 104,
+        "id": "topic-121",
+        "number": 121,
         "title": "Distributed cache",
         "priority": "should",
         "weight": 1,
@@ -1060,8 +1222,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/performance/caching/distributed?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-105",
-        "number": 105,
+        "id": "topic-122",
+        "number": 122,
         "title": "Redis basics",
         "priority": "should",
         "weight": 1.25,
@@ -1069,8 +1231,8 @@ window.ROADMAP=[
         "url": "https://redis.io/docs/latest/"
       },
       {
-        "id": "topic-106",
-        "number": 106,
+        "id": "topic-123",
+        "number": 123,
         "title": "Cache invalidation and advanced Redis",
         "priority": "good",
         "weight": 0.5,
@@ -1080,15 +1242,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-15",
-    "phase": "Phase 15",
+    "id": "phase-16",
+    "phase": "Phase 16",
     "title": "Gateway & Networking",
     "icon": "\ud83c\udf10",
     "weight": 5,
     "topics": [
       {
-        "id": "topic-107",
-        "number": 107,
+        "id": "topic-124",
+        "number": 124,
         "title": "Reverse proxy",
         "priority": "must",
         "weight": 1,
@@ -1096,8 +1258,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/yarp/getting-started?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-108",
-        "number": 108,
+        "id": "topic-125",
+        "number": 125,
         "title": "API Gateway",
         "priority": "should",
         "weight": 1.25,
@@ -1105,8 +1267,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/gateway"
       },
       {
-        "id": "topic-109",
-        "number": 109,
+        "id": "topic-126",
+        "number": 126,
         "title": "YARP basics",
         "priority": "should",
         "weight": 0.75,
@@ -1114,8 +1276,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/servers/yarp/getting-started?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-110",
-        "number": 110,
+        "id": "topic-127",
+        "number": 127,
         "title": "Load balancing",
         "priority": "should",
         "weight": 1,
@@ -1123,8 +1285,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/load-balancing-overview"
       },
       {
-        "id": "topic-111",
-        "number": 111,
+        "id": "topic-128",
+        "number": 128,
         "title": "Rate limiting",
         "priority": "must",
         "weight": 0.75,
@@ -1132,8 +1294,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/performance/rate-limit?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-112",
-        "number": 112,
+        "id": "topic-129",
+        "number": 129,
         "title": "Service discovery",
         "priority": "good",
         "weight": 0.25,
@@ -1143,15 +1305,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-16",
-    "phase": "Phase 16",
+    "id": "phase-17",
+    "phase": "Phase 17",
     "title": "Observability",
     "icon": "\ud83d\udcca",
     "weight": 5,
     "topics": [
       {
-        "id": "topic-113",
-        "number": 113,
+        "id": "topic-130",
+        "number": 130,
         "title": "Logging",
         "priority": "must",
         "weight": 1.25,
@@ -1159,8 +1321,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/extensions/logging"
       },
       {
-        "id": "topic-114",
-        "number": 114,
+        "id": "topic-131",
+        "number": 131,
         "title": "Structured logging",
         "priority": "must",
         "weight": 0.75,
@@ -1168,8 +1330,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/core/extensions/logging"
       },
       {
-        "id": "topic-115",
-        "number": 115,
+        "id": "topic-132",
+        "number": 132,
         "title": "Health checks",
         "priority": "must",
         "weight": 1,
@@ -1177,8 +1339,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/health-checks?view=aspnetcore-10.0"
       },
       {
-        "id": "topic-116",
-        "number": 116,
+        "id": "topic-133",
+        "number": 133,
         "title": "Metrics",
         "priority": "should",
         "weight": 1,
@@ -1186,8 +1348,8 @@ window.ROADMAP=[
         "url": "https://opentelemetry.io/docs/concepts/signals/metrics/"
       },
       {
-        "id": "topic-117",
-        "number": 117,
+        "id": "topic-134",
+        "number": 134,
         "title": "Distributed tracing / OpenTelemetry",
         "priority": "should",
         "weight": 1,
@@ -1197,15 +1359,15 @@ window.ROADMAP=[
     ]
   },
   {
-    "id": "phase-17",
-    "phase": "Phase 17",
+    "id": "phase-18",
+    "phase": "Phase 18",
     "title": "Distributed Systems & Architecture",
     "icon": "\ud83c\udfd7\ufe0f",
     "weight": 6,
     "topics": [
       {
-        "id": "topic-118",
-        "number": 118,
+        "id": "topic-135",
+        "number": 135,
         "title": "Monolith vs modular monolith",
         "priority": "must",
         "weight": 1,
@@ -1213,8 +1375,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/"
       },
       {
-        "id": "topic-119",
-        "number": 119,
+        "id": "topic-136",
+        "number": 136,
         "title": "Microservices trade-offs",
         "priority": "must",
         "weight": 1,
@@ -1222,8 +1384,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/"
       },
       {
-        "id": "topic-120",
-        "number": 120,
+        "id": "topic-137",
+        "number": 137,
         "title": "Service boundaries and communication",
         "priority": "must",
         "weight": 1,
@@ -1231,8 +1393,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/"
       },
       {
-        "id": "topic-121",
-        "number": 121,
+        "id": "topic-138",
+        "number": 138,
         "title": "Event-driven architecture",
         "priority": "should",
         "weight": 0.75,
@@ -1240,8 +1402,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/architecture-styles/event-driven"
       },
       {
-        "id": "topic-122",
-        "number": 122,
+        "id": "topic-139",
+        "number": 139,
         "title": "Eventual consistency",
         "priority": "should",
         "weight": 0.75,
@@ -1249,8 +1411,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
       },
       {
-        "id": "topic-123",
-        "number": 123,
+        "id": "topic-140",
+        "number": 140,
         "title": "Distributed transactions",
         "priority": "good",
         "weight": 0.5,
@@ -1258,8 +1420,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/"
       },
       {
-        "id": "topic-124",
-        "number": 124,
+        "id": "topic-141",
+        "number": 141,
         "title": "Saga pattern",
         "priority": "good",
         "weight": 0.5,
@@ -1267,8 +1429,8 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/saga"
       },
       {
-        "id": "topic-125",
-        "number": 125,
+        "id": "topic-142",
+        "number": 142,
         "title": "CQRS",
         "priority": "should",
         "weight": 0.25,
@@ -1276,13 +1438,220 @@ window.ROADMAP=[
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/cqrs"
       },
       {
-        "id": "topic-126",
-        "number": 126,
+        "id": "topic-143",
+        "number": 143,
         "title": "Event sourcing",
         "priority": "advanced",
         "weight": 0.25,
         "description": "Advanced persistence pattern; not a default choice.",
         "url": "https://learn.microsoft.com/en-us/azure/architecture/patterns/event-sourcing"
+      }
+    ]
+  },
+  {
+    "id": "phase-19",
+    "phase": "Phase 19",
+    "title": "Testing",
+    "icon": "\ud83e\uddea",
+    "weight": 6,
+    "topics": [
+      {
+        "title": "Unit testing fundamentals",
+        "priority": "must",
+        "weight": 1.25,
+        "description": "Test business logic in isolation.",
+        "url": "https://learn.microsoft.com/en-us/dotnet/core/testing/",
+        "id": "topic-144",
+        "number": 144
+      },
+      {
+        "title": "xUnit",
+        "priority": "must",
+        "weight": 1,
+        "description": "Create practical .NET unit tests.",
+        "url": "https://xunit.net/",
+        "id": "topic-145",
+        "number": 145
+      },
+      {
+        "title": "Mocking dependencies",
+        "priority": "must",
+        "weight": 1,
+        "description": "Mock external dependencies and services.",
+        "url": "https://github.com/devlooped/moq",
+        "id": "topic-146",
+        "number": 146
+      },
+      {
+        "title": "Integration testing",
+        "priority": "should",
+        "weight": 1.25,
+        "description": "Test APIs and infrastructure working together.",
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/test/integration-tests?view=aspnetcore-10.0",
+        "id": "topic-147",
+        "number": 147
+      },
+      {
+        "title": "Test database strategy",
+        "priority": "should",
+        "weight": 0.75,
+        "description": "Use realistic and isolated data for tests.",
+        "url": "https://learn.microsoft.com/en-us/ef/core/testing/",
+        "id": "topic-148",
+        "number": 148
+      },
+      {
+        "title": "Test coverage and quality gates",
+        "priority": "good",
+        "weight": 0.75,
+        "description": "Use coverage as a signal, not the goal itself.",
+        "url": "https://learn.microsoft.com/en-us/dotnet/core/testing/unit-testing-code-coverage",
+        "id": "topic-149",
+        "number": 149
+      }
+    ]
+  },
+  {
+    "id": "phase-20",
+    "phase": "Phase 20",
+    "title": "CI/CD & Delivery",
+    "icon": "\ud83d\ude80",
+    "weight": 6,
+    "topics": [
+      {
+        "title": "What CI/CD solves",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Understand automated build, test and deployment pipelines.",
+        "url": "https://learn.microsoft.com/en-us/devops/deliver/what-is-continuous-delivery",
+        "id": "topic-150",
+        "number": 150
+      },
+      {
+        "title": "Build and test pipeline",
+        "priority": "must",
+        "weight": 1.25,
+        "description": "Automatically restore, build and test your .NET application.",
+        "url": "https://docs.github.com/en/actions",
+        "id": "topic-151",
+        "number": 151
+      },
+      {
+        "title": "GitHub Actions or Azure Pipelines basics",
+        "priority": "must",
+        "weight": 1.25,
+        "description": "Understand one pipeline system well.",
+        "url": "https://docs.github.com/en/actions",
+        "id": "topic-152",
+        "number": 152
+      },
+      {
+        "title": "Environment configuration",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Separate development, staging and production settings.",
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/environments?view=aspnetcore-10.0",
+        "id": "topic-153",
+        "number": 153
+      },
+      {
+        "title": "Secrets in CI/CD",
+        "priority": "must",
+        "weight": 0.75,
+        "description": "Store credentials outside source code.",
+        "url": "https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions",
+        "id": "topic-154",
+        "number": 154
+      },
+      {
+        "title": "Deployment pipeline",
+        "priority": "should",
+        "weight": 0.75,
+        "description": "Deploy after validation rather than manually copying files.",
+        "url": "https://learn.microsoft.com/en-us/azure/devops/pipelines/",
+        "id": "topic-155",
+        "number": 155
+      },
+      {
+        "title": "Branch and PR checks",
+        "priority": "should",
+        "weight": 0.5,
+        "description": "Protect main branches with automated validation.",
+        "url": "https://docs.github.com/en/pull-requests",
+        "id": "topic-156",
+        "number": 156
+      }
+    ]
+  },
+  {
+    "id": "phase-21",
+    "phase": "Phase 21",
+    "title": "Deployment & Production Basics",
+    "icon": "\u2601\ufe0f",
+    "weight": 6,
+    "topics": [
+      {
+        "title": "Configuration and appsettings",
+        "priority": "must",
+        "weight": 1,
+        "description": "Understand .NET configuration providers and environments.",
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/fundamentals/configuration/?view=aspnetcore-10.0",
+        "id": "topic-157",
+        "number": 157
+      },
+      {
+        "title": "Secrets and Key Vault concepts",
+        "priority": "must",
+        "weight": 1,
+        "description": "Keep production secrets out of code.",
+        "url": "https://learn.microsoft.com/en-us/azure/key-vault/general/overview",
+        "id": "topic-158",
+        "number": 158
+      },
+      {
+        "title": "Deploy an ASP.NET Core API",
+        "priority": "must",
+        "weight": 1.25,
+        "description": "Understand a practical production deployment.",
+        "url": "https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/?view=aspnetcore-10.0",
+        "id": "topic-159",
+        "number": 159
+      },
+      {
+        "title": "Azure App Service basics",
+        "priority": "should",
+        "weight": 1,
+        "description": "Useful managed hosting knowledge for .NET APIs.",
+        "url": "https://learn.microsoft.com/en-us/azure/app-service/overview",
+        "id": "topic-160",
+        "number": 160
+      },
+      {
+        "title": "Database migrations in deployment",
+        "priority": "should",
+        "weight": 0.75,
+        "description": "Handle schema changes safely.",
+        "url": "https://learn.microsoft.com/en-us/ef/core/managing-schemas/migrations/",
+        "id": "topic-161",
+        "number": 161
+      },
+      {
+        "title": "Production logging and monitoring",
+        "priority": "should",
+        "weight": 0.75,
+        "description": "Connect logs, health and diagnostics in production.",
+        "url": "https://learn.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview",
+        "id": "topic-162",
+        "number": 162
+      },
+      {
+        "title": "Blue-green / canary deployment",
+        "priority": "good",
+        "weight": 0.25,
+        "description": "Know safer deployment strategies.",
+        "url": "https://learn.microsoft.com/en-us/azure/architecture/guide/technology-choices/deployment-strategies",
+        "id": "topic-163",
+        "number": 163
       }
     ]
   }
